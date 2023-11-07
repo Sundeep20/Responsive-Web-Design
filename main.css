@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+   
+    text-align: center;
+    padding: 24px;
+    color: cornsilk;
+    outline: thick aliceblue 2px;
+    margin: auto;
+    background-attachment: fixed;
+    border-bottom: 5px rgb(236, 150, 150);
+    border-bottom-style: inset;
+    border-width: 2px;
+    font-weight: bolder;
+     top: 0;
+     letter-spacing: 1em;
+    
+
+}
+.pg1{
+    
+    background-image: url(img/img23.jpg);
+    background-size: 100%;
+    
+
+
+
+    
+
+}
+.myself{
+    color: wheat;
+    font-size: large;
+    padding-top: 5em;
+   margin-right: 1em;
+
+}
+.menu{
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 1em;
+    border-bottom: 5px rgb(236, 150, 150);
+    border-bottom-style: inset;
+    border-width: 2px;
+
+
+}
+ 
+.menu li{
+  
+  
+    margin: 3.4em;
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+}
+li a{
+
+    text-decoration: none;
+    color: gold;
+    text-align: left;
+    font-size: larger;
+   
+}
+li a:hover{
+    
+    color: wheat;
+    font-weight: 800;
+}
+li a:visited{
+
+                background-color: violet;
+}
+.img{
+        width: 150px;
+        margin-left: 1em;
+        padding-right: 1em;
+        float: left;
+        margin-top: 1em;
+}
+ .myself p{
+        padding-left: 22em;
+       
+        padding-top: 4em;
+       text-transform: capitalize;
+        text-align: justify;
+        line-height: 1.9em;
+        word-spacing: 3px;
+}
+
+/* ACademics Styling */
+
+.pg2{
+    background-image: url(img/img8.jpg);  
+    z-index: -1;
+    color: snow;
+    background-size: 100%;
+    
+}
+table{
+    border: 1px solid white;
+    margin-top: 6em;
+    margin-left: 4em;
+    padding: 2em 4em;
+    text-align: center;
+    margin-right: 4em;
+    font-weight: bolder;
+    z-index: 0;
+    background-color: black;
+    opacity: 0.85;
+   
+    
+}
+th,tr,td{
+    border-bottom: 1px solid white;
+    column-rule: 1px;
+    border-collapse: collapse;
+    padding: 1em 1em;
+}
+th{
+    color: whitesmoke;
+}
+tr:hover{
+    color: coral;
+}
+
+/* Project Page Styling */
+
+.pg3{
+    background-image: url(img/projBG2.jpg);
+    background-size: 100%;
+}
+
+.prj1,.prj2{
+    color: antiquewhite;
+    
+}
+.prj1 a,.prj2 a{
+    color: burlywood;
+    text-align: left;
+
+}
+.prj{
+    border: 2px solid white;
+    border-collapse: collapse;
+    border-style: hidden;
+    text-align: left;
+    margin-left: 8em;
+    margin-top: 10em;
+    
+}
+
+.menu2 li{
+    list-style-type: square;
+    padding-bottom: 2em;
+}
+li h2{
+    text-transform: uppercase;
+}
+
+/* Internship Page Styling */
+
+.pg4{
+    background-image: url(img/InternBG.jpg);
+    background-size: 100%;
+}
+.menu3 li{
+    
+    list-style: square;
+    margin-top: 8em;
+    text-transform: uppercase;
+    margin-left: 4em;
+    color: whitesmoke;
+    line-height: 2em;
+    padding-top: 3em;
+  
+}
+.certi{
+    width: 35%;
+    height: 25%;
+    float: right;
+    margin-right: 6em;
+    padding-left: 5em;
+}
+
+/* Achievements Page Styling */
+
+.pg5{
+    background-image: url(img/AchBG.jpg);
+    background-size: 100%;
+}
+.menu4 li{
+    color: wheat;
+    list-style: square;
+    margin-top: 8em;
+    padding-top: 6em;
+    text-transform: uppercase;
+    padding-left: 10em;
+    width: 50%;
+    word-spacing: 0.5em;
+}
+.achcerti{
+    width: 35%;
+    height: 25%;
+    float: right;
+    margin-right: 12em;
+   
+}
+
+/* Skills Page Styling */
+.pg6{
+    background-image: url(img/SkillsBG.jpg);
+    background-size: 100%;
+}
+.menu5 li{
+    color:whitesmoke;
+    list-style: disc;
+    padding-left: 2.5em;
+    list-style-position: inside;
+   letter-spacing: 0.2em;
+}
+.menu5 li:hover{
+    color: coral;
+    font-weight: bolder;
+    font-size: medium;
+}
+h3{
+    
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+    color: khaki;
+}
+.box{
+    margin-left: 9em;
+}
