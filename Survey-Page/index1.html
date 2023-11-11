@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="mai1.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>M<span>G</span> Institute</h1>
+        </header>
+        <section class="s-form">
+            <form autocomplete="on">
+                
+                    <div>
+                    <label for="fname" class="fname">Your First Name:</label><br>
+                    <input id="fname" type="text" name="fname" placeholder="Ex:Sundeep"><br></div>
+                    <div>
+                    <label for="lname">Your Last Name:</label><br>
+                    <input id="lname" type="text" name="lname" placeholder="Gadekal"><br></div>
+                    <div><label for="mail">Your Mail:</label><br>
+                    <input id="mail" type="email" name="mail" placeholder="abc@gmail.com"><br></div>
+                   <div> <label for="contact">Mobile Number:</label><br>
+                    <input id="contact" type="tel"  name="contact" placeholder="123456789"><br></div>
+                   <div><label for="branch">Your Branch:</label><br></div> 
+                    <div><select id="branch">
+                        <optgroup label="B.E,">
+                        <option selected>CSE</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>MECH</option>
+                        <option>OTHER</option>
+                    </optgroup>
+                    <optgroup label="B.Tech">
+                        <option selected>CSE</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>MECH</option>
+                        <option>OTHER</option>
+
+                    </optgroup>
+                    </select><br></div>
+                    <div>
+                    <label for="course">Choose the Course:</label><br>
+                    <input list="course">
+                    <datalist id="course">
+                        <option>Java Full-Stack</option>
+                        <option>Python Full-Stack</option>
+                        <option>Data Science</option>
+                        <option>Cyber-Security</option>
+                        <option>Networking</option></optgroup>
+                      
+                        <option>Embedded Systems Design</option>
+                        <option>VSLI Design</option>
+                        <option> Microelectronics</option>
+                        <option>Robotics</option>
+                        <option>CAD</option>
+                        </datalist><br></div>
+                        <div class="graduate">
+                       <p>Are you Graduated?:</p>
+                        <label for="graduate">
+                        <input type="radio" id="graduate" value="Yes" name="Graduation">Yes<br></label>
+                        <label>
+                        <input type="radio" id="graduate" value="No"  name="Graduation">No<br></label>
+                    </div>
+                    <div>
+                        <label for="queries">Any Queries,Feel Free to Ask:<br><textarea id="queries"></textarea>
+                        </div>
+                    <div class="buttons">
+                        <input class="b1" type="submit" value="Submit"><br><input class="b2" type="reset" value="Reset">
+                    </div>
+            </form>
+
+        </section>
+    </main>
+    
+</body>
+</html>
